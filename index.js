@@ -81,3 +81,17 @@ manager.addProduct(
     "abc333",
     50
 );
+console.log("------------------------");
+console.log("Actualizar producto");
+console.log(manager.updateProduct(
+    2,
+    "Producto 5",
+    "Este es un producto prueba 5",
+    100,
+    "Sin imagen",
+    "abc555",
+    50,
+));
+console.log("------------------------");
+console.log("Borrar producto:");
+console.log(manager.deleteProduct(3));
